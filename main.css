@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap");
+@media (min-width: 800px) {
+  /* font */
+  .title-font {
+    font-family: "Red Hat Display", sans-serif;
+  }
+
+  h2 {
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+  }
+  h3 {
+    font-family: 700;
+    color: hsl(223, 47%, 23%);
+  }
+  p {
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+  }
+
+  body {
+    background-image: url("img/pattern-background-desktop.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+  }
+
+  .back {
+    width: 100%;
+    height: 100%;
+    background-color: hsl(225, 100%, 94%);
+  }
+
+  .rect1 {
+    width: 430px;
+    height: 700px;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255);
+    background-image: url("img/illustration-hero.svg");
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 55px;
+    /* margin-top: 50%; */
+  }
+  #title {
+    padding-top: 250px;
+    padding-bottom: 10px;
+  }
+  #title h2 {
+    font-weight: 900;
+  }
+  #title p {
+    margin: 0;
+    padding-left: 60px;
+    padding-right: 60px;
+    display: block;
+  }
+
+  .rect2 {
+    width: auto;
+    height: 95px;
+    border-radius: 10px;
+    background-color: hsl(225, 100%, 98%);
+    margin-top: 20px;
+    margin-bottom: 35px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    display: inline;
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 50px 2fr 1fr;
+  }
+  .rect2 .img {
+    width: 48px;
+    height: 48px;
+    padding: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+  }
+  .rect2 .text {
+    text-align: left;
+    margin: auto;
+    padding: auto;
+  }
+  .rect2 .ctext {
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+    font-weight: 700;
+    margin-right: 20px;
+  }
+
+  .rect2 h3,
+  p {
+    display: inline;
+  }
+  .rect2 h3 {
+    font-size: 17px;
+    line-height: 30px;
+  }
+
+  .rect3 {
+    width: auto;
+    height: 50px;
+    border-radius: 10px;
+    background-color: hsl(245, 75%, 52%);
+    margin-top: 10px;
+    margin-bottom: 35px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: white;
+    text-align: center;
+    box-shadow: 0 20px 20px hsl(245, 75%, 52%, 20%);
+  }
+  .button {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 15px;
+  }
+  .button p {
+    text-align: auto;
+    color: hsl(225, 100%, 98%);
+    font-weight: 900;
+  }
+  .cbutton {
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 700;
+  }
+}
